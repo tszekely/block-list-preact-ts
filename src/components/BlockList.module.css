@@ -1,0 +1,9 @@
+.blockList {
+  overflow: auto;
+  height: calc(100% - 138px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: .5rem;
+  position: relative;
+}

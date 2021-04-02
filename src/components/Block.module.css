@@ -1,0 +1,27 @@
+.block {
+  width: calc(33.3333% - 1rem);
+  margin: .5rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-align: left;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(247deg, var(--color), transparent 90%);
+  background-position: left;
+  background-size: 400%;
+}
+
+.block header {
+  margin: 0;
+  border-bottom: 2px solid var(--color);
+  padding: 0.5rem 1rem;
+}
+
+.block main {
+  padding: 1rem;
+  border-top: none;
+}
+
+.block a {
+  color: var(--color);
+}
